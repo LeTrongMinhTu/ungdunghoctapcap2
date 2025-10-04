@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng học tập cấp 2</title>
+    <link rel="stylesheet" href="css\styles_home.css">
+    <script src="js\script.js" defer></script>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script src="js/script.js" defer></script>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href = "#tim_hieu_chung" ><button>Tìm hiểu chung</button></a></li>
+            <li><a href = "#huong_dan_su_dung"><button>Hướng dẫn sử dụng</button></a></li>
+            <li><a href = "#giao_dien_chinh"><button>Giao diện chính</button></a></li>
+            <li><a><button>Feedback</button></a></li>
+        </ul>
+    </nav>
+    <header>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <h1>ỨNG DỤNG HỌC TẬP CẤP 2</h1>
+        <hr>
+        <h2 id = "tim_hieu_chung">Tìm hiểu chung: </h2>
+        <p>Ứng dụng này được phát triển với mục đích hỗ trợ học tập, gồm các chức năng cơ bản như: xem sách giáo
+             khoa online, lập thời khóa biểu, lập ghi chú, tổng hợp những kiến thức các môn học. Ứng dụng hoàn toàn miễn phí, 
+             dễ tiếp cận cho tất cả mọi người, hữu ích cho học tập và phát triển. Lưu ý rằng nếu có thứ gì không hợp lí
+             hoặc mắc những lỗi không mong muốn, bạn có thể gửi feedback ở phần sau cùng của trang web!</p>
+        <h2 id = "huong_dan_su_dung">Hướng dẫn sử dụng: </h2>
+        <h3 id = "xem_sgk_online">Chức năng xem sách giáo khoa online: </h3>
+        <p>Chức năng này cho phép bạn xem sách giáo khoa trực tuyến. Bạn có thể chọn môn học hợp với lớp của bạn,
+             sau đó chọn sách giáo khoa tương ứng. Ứng dụng cung cấp các sách giáo khoa từ lớp 6 đến lớp 9, bao gồm các môn
+             học chính như Toán, Ngữ văn, Tiếng Anh, Khoa học tự nhiên, Lịch sử và Địa lý. Bạn có thể dễ dàng  
+            truy cập vào nội dung sách. Giao diện thân thiện, dễ sử dụng, giúp bạn dễ dàng tìm kiếm và đọc sách mọi lúc, 
+            mọi nơi.</p>
+        <h3 id = "lap_tkb">Chức năng lập thời khóa biểu: </h3>
+        <p>Chức năng này giúp bạn tạo và quản lý thời khóa biểu học tập của mình. Bạn có thể thêm các môn học, 
+            thời gian và địa điểm học vào lịch trình hàng ngày hoặc hàng tuần. Ứng dụng cung cấp giao diện trực quan, 
+            dễ sử dụng, giúp bạn dễ dàng theo dõi và điều chỉnh thời khóa biểu khi cần thiết. Bạn cũng có thể nhận thông báo
+             nhắc nhở về các buổi học sắp tới để không bỏ lỡ bất kỳ tiết học nào.</p>
+
+        <h3 id = "lap_ghi_chu">Chức năng lập ghi chú: </h3>
+        <p>Chức năng này cho phép bạn tạo và quản lý ghi chú học tập một cách dễ dàng. Bạn có thể tạo ghi chú cho từng môn học, 
+            bài học hoặc chủ đề cụ thể. Ứng dụng cung cấp giao diện đơn giản, giúp bạn dễ dàng thêm, chỉnh sửa và xóa ghi chú 
+            khi cần thiết. Bạn cũng có thể sắp xếp ghi chú theo danh mục hoặc ngày tháng để dễ dàng tìm kiếm và truy cập.</p>
+        <h3 id = "tong_hop_kien_thuc_cac_mon">Chức năng tổng hợp các kiến thức các môn học và hỗ trợ giải một số câu hỏi: </h3>
+        <p>Chức năng này cho phép bạn truy cập vào môn học mà bạn cần hỗ trợ, phù hợp với lớp bạn học, các kiến thức quan trọng 
+            của môn học đó đã được ghi chép cẩn thận, ví dụ như: các mốc thời gian và các sự kiện lịch sử găn liền ở phân môn lịch sử,
+             hoặc là cũng có thể giải hệ phương trình ở phân môn toán,... Đây là một chức năng rất hữu ích trong quá trình học tập cũng
+              như ôn thi, giúp các bạn có thể ôn ở mọi lúc mọi nơi, hỗ trợ phần nào quá trình học tập của các bạn.</p>
+        <h3 id = "cau_hoi">Chức năng câu hỏi: </h3>
+        <p>Chức năng này cung cấp các câu hỏi trắc nghiệm và bài tập để giúp bạn ôn tập và kiểm tra kiến thức. Bạn có thể chọn
+             môn học và cấp độ phù hợp với mình, sau đó trả lời các câu hỏi được cung cấp. Ứng dụng sẽ tự động chấm điểm và cung
+             cấp phản hồi về kết quả của bạn, giúp bạn nhận biết những điểm mạnh và điểm cần cải thiện trong quá trình học tập.</p>
+    </header>
+    <main>
+        <hr>
+        <h1 style="color: gold"id = "giao_dien_chinh">Giao diện chính</h1>
+        <p>📖 Chào mừng bạn đến với không gian học tập! Hãy bắt đầu chinh phục tri thức hôm nay</p>
+        <div class="dropdown">
+            <button id="menuBtn">Chọn môn học ▼</button>
+            <div id="menuList" class="dropdown-list">
+                <button onclick="openSubject('subject/toan.html')">Toán</button>
+                <button onclick="openSubject('subject/van.html')">Văn</button>
+                <button onclick="openSubject('subject/anh.html')">Anh</button>
+                <button onclick="openSubject('subject/lich_su.html')">Lịch sử</button>
+                <button onclick="openSubject('subject/dia_li.html')">Địa lí</button>
+                <button onclick="openSubject('subject/hoa.html')">Hóa</button>
+                <button onclick="openSubject('subject/vat_li.html')">Vật lí</button>
+                <button onclick="openSubject('subject/sinh.html')">Sinh</button>
+                <button onclick="openSubject('subject/tin.html')">Tin</button>
+                <button onclick="openSubject('subject/giao_duc_cong_dan.html')">GDCD</button>
+                <button onclick="openSubject('subject/cong_nghe.html')">Công nghệ</button>
+            </div>
+        </div>
+        <a href = "/giaodien/tkb.html" target = "_blank" onclick="markGoal('tkb')"><button class="tkb">Thời khóa biểu</button></a>
+        <a href = "/giaodien/lapghichu" target = "_blank"><button class ="lapghichu" onclick="markGoal('ghichu')">Lập ghi chú</button></a>
+        <a href = "giaodien/tonghopkienthuccacmon" target = "_blank" onclick="markGoal('tonghop')"><button class="tonghopkienthuccacmon">Tổng hợp kiến thức các môn</button></a>
+        <a href = "giaodien/cauhoi" target = "_blank" onclick="markGoal('cauhoi')"><button class="cauhoi">Câu hỏi</button></a>
+        <div id = "muctieu">
+            <p>Mục tiêu ngày hôm nay: </p>
+            <ul>
+                <li id="goal-ghichu">Xem lại ghi chú</li>
+                <li id="goal-tkb">Xem thời khóa biểu</li>
+                <li id="goal-tonghop">Xem kiến thức các môn</li>
+                <li id="goal-cauhoi">Trả lời câu hỏi</li>
+            </ul>
+        </div>
+        <section>
+            <h1 id="bangthanhtich">Bảng thành tích</h1>
+            <div id="stats">
+                <p>⏳ Tổng số giờ học: <span id="hours">0</span> giờ</p>
+                <p>🎯 Mục tiêu đã hoàn thành: <span id="goals-done">0</span>/4</p>
+                <p>⭐ Điểm thưởng: <span id="points">0</span></p>
+                <div id="badges"></div>
+                <div class="progress-container">
+                <div id="progress-bar"></div>
+                </div>
+                <button onclick="resetProgress()">🔄 Làm lại từ đầu</button>
+            </div>
+        </section>
+
+        <section>
+            <h1 style = "color: white;">📊 Thống kê học tập</h1>
+            <canvas id="studyChart" width="400" height="200"></canvas>
+        </section>
+
+        <section>
+            <h1 style  = "color: white;">🎮 Quiz nhanh</h1>
+            <button onclick="startQuiz()">Bắt đầu Quiz</button>
+            <div id="quizArea"></div>
+        </section>
+
+        <section>
+            <h1 style = "color: white;">💡 Cài đặt</h1>
+            <button onclick="toggleMode()">🌙 Đổi chế độ Sáng/Tối</button>
+            <button onclick="toggleMusic()">🎵 Bật/tắt nhạc</button>
+            <audio id="bgMusic" loop>
+                <source src="asset/audio/River Flows In You.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section>
+            <h1 style="color: white;">✉️ Gửi Feedback</h1>
+            <textarea id="feedback" rows="4" cols="50" placeholder="Nhập góp ý của bạn..."></textarea><br>
+            <button onclick="saveFeedback()">Gửi</button>
+            <p id="feedbackStatus"></p>
+        </section>
+
+        <footer>
+            <p>© 2025 Ứng dụng học tập cấp 2 | Nhóm STEM Trường XYZ</p>
+            <p>"Học tập hôm nay – Tương lai ngày mai"</p>
+        </footer>
+    </main>
+</body>
+</html>

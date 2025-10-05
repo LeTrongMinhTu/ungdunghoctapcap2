@@ -1,0 +1,247 @@
+body{
+  background: linear-gradient(125deg, red, aqua, rgb(79, 139, 139), green);
+}
+.header {
+  display: flex;
+  gap: 20px;
+}
+/* Navbar container */
+#navbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 40px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  height: 5vw;
+  overflow: visible;
+  width: 50vw;
+}
+
+/* Nav item */
+.nav-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button tròn to, đẹp */
+.nav-item button {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Hiệu ứng hover cho button */
+.nav-item button:hover {
+  transform: scale(1.15);
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35),
+              0 0 25px rgba(67, 233, 123, 0.7);
+}
+
+/* Viền sáng mờ quanh button */
+.nav-item button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe, #43e97b, #38f9d7);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Tooltip label */
+.nav-item .label {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/* Hover hiện label */
+.nav-item:hover .label {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+form{
+  display: flex;
+  gap: 20px;
+}
+.searchbox{
+  display: flex;
+  align-items:  center;
+}
+.searchbox fieldset input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px 12px;
+  font-size: 1rem;
+  width: 200px;
+}
+.buttonsubmit{
+  padding: 10px 0px;
+}
+.buttonsubmit button {
+  justify-content: center;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.buttonsubmit button:hover{
+  outline: none;
+  color: blue;
+  transform: scale(1.1);
+}
+#giaiphuongtrinh {
+  padding: 10px;
+  margin: 2px;
+  font-size: Arial;
+  padding: 10px;
+  justify-content: space-around;
+}
+#giaiphuongtrinh h1{
+  font-size: 2rem;
+}
+#giaiphuongtrinh h2{
+  font-size: 1.5rem;
+}
+#giaiphuongtrinh a button{
+  width: 250px;
+  height: 50px;
+  background-color: rgb(12, 192, 237);
+  border-radius: 10px;
+}
+#giaiphuongtrinh a button:hover{
+  background-color: rgb(10, 73, 88);
+  box-shadow: 5px 5px 5px grey;
+}
+#may-tinh-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nutmaytinh{
+  display: grid;
+  grid-template-columns: repeat(4, calc(50vw/4));
+  grid-template-rows: repeat(5, calc(10vh));
+  justify-content: center;
+}
+#maytinhdisplay{
+  width: 50vw;
+  height: 10vh;
+  caret-color: black;
+}
+.nutmaytinh button:nth-child(1) {
+  grid-column: span 2; 
+}
+hr {
+  outline: solid black 1px;
+}
+#li-thuyet-chung-feature {
+  outline: 3p solid black;
+  padding: 5px;
+  margin: 5px;
+}
+#ltc {
+  display: flex;
+  gap: 5px;
+}
+.site-footer {
+  background: #222;
+  color: #eee;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.author-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.author-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.author-info p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #4db8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 0.8em;
+  color: #aaa;
+  margin-top: 10px;
+}
+

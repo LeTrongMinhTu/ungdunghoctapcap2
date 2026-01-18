@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+#feedback {
+    scroll-margin-top: 75px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #100000;
+    padding: 10px 0px;
+    box-shadow: 0 2px 4px rgba(243, 238, 238, 0.1);
+    z-index: 1000;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    scroll-margin-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    padding: 2x;
+    scroll-margin-top: 75px;
+    color:rgb(0, 0, 0)
+}
+.navbar ul li a {
+    color: #240101;
+    text-decoration: none;
+    scroll-margin-top: 75px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: rgb(215, 208, 63);
+}
+.navbar ul li a button {
+    color: #f2f2ec;
+    background-color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 2px;
+}
+.navbar ul li a button:hover {
+    background-color: #a5b933;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px grey;
+    transform: scale(1.1);
+    transition:  transform 0.5s ease ;
+}
+.navbar ul li a button:active {
+    background-color: #6e7b2c;
+    color: white;
+    box-shadow: 2px grey;
+    transform: scale(0.9);
+    transition:  transform 0.1s ease ;
+}
+header > h1 {
+    text-align: center;
+}
+header {
+    background: linear-gradient(-45deg, #0057f9, #2a5298, #fb0026, #ffe207);
+    padding: 10px 0;
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    scroll-margin-top: 75px;
+}
+@keyframes gradientBG {
+  0%   { background-position: 0% 50%; }   /* lúc bắt đầu, gradient nằm ở trái */
+  50%  { background-position: 100% 50%; } /* giữa animation, gradient chạy sang phải */
+  100% { background-position: 0% 50%; }   /* kết thúc, gradient quay về trái */
+}
+header h1 {
+    padding: 10px;
+    margin: 20px;
+    font-size: 3.5rem;
+    scroll-margin-top: 75px;
+}
+header h2 {
+    padding: 10px;
+    margin: 20px;
+    font-size: 3rem;
+    scroll-margin-top: 75px;
+}
+header h3 {
+    padding: 2px;
+    margin: 20px;
+    font-size: 2rem;
+    scroll-margin-top: 75px;
+}
+h4 {
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5rem;
+    color:azure;
+    scroll-margin-top: 75px;
+}
+p {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    padding: 10px; 
+    margin: 5px 30px;
+    scroll-margin-top: 75px;
+    text-align: justify;
+}
+a:link {
+    color: rgb(29, 0, 0);
+    text-decoration: none;
+}
+a:visited {
+    color: #af102d;
+}
+a:hover {
+    color: #8345db;
+    text-decoration: underline;
+}
+a:active {
+    color: #d7ff0c;
+}
+
+header h2 {
+    color:darksalmon;
+    text-align: center;  
+}
+header h2:nth-of-type(1) {
+    color:rgb(183, 153, 113);
+    text-align: center;  
+}
+
+button {
+    background-color: #c1c410; 
+    border: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 210px;
+    height: 70px;
+}
+button:any-link {
+    color: yellow;
+    text-decoration: none;
+    box-shadow: 10px rgb(136, 88, 88) ;
+}
+button:hover {
+    background-color: gold; 
+    color: rgb(69, 54, 54);
+}   
+button:active {
+    background-color: #0b8869; 
+    color: white;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #10d39c;
+}
+:is(#xem_sgk_online, #lap_tkb, #lap_ghi_chu, #tong_hop_kien_thuc_cac_mon, #cau_hoi) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:gold;
+    box-shadow: 5px grey;
+}
+/* Nút chính */
+#menuBtn {
+  background-color: #f1c40f;
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Khung dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Danh sách môn học */
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(213, 139, 139, 0.25);
+  border-radius: 6px;
+  z-index: 1;
+  margin-top: 5px;
+  padding: 8px 0;
+}
+
+/* Các nút trong menu */
+.dropdown-list button {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-list button:hover {
+  background-color: #f1c40f;
+  color: rgb(0, 0, 0);
+}
+
+/* Khi hiện menu */
+.show {
+  display: block;
+}
+#menuBtn:hover{
+    color: blue;
+}
+
+main > a:hover {
+    text-decoration: none;
+}
+main {
+    background-size: 100% auto;
+    height: 2000px;
+}
+main > h1 {
+    scroll-margin-top: 75px;
+    font-size: 2rem;
+    text-align: center;
+}
+:is(.tkb, .lapghichu, .tonghopkienthuccacmon, .cauhoi) {
+    color:rgb(0, 0, 0);
+    background-color: gold;
+}
+:is(.tkb, .lapghichu, .tonghopkienthuccacmon, .cauhoi):hover {
+    color: blue;
+}
+#bangthanhtich {
+    color: gold;
+    text-align: center;
+    background: linear-gradient(135deg, blue, rgb(144, 18, 79), rgb(59, 54, 46), azure);
+}
+#muctieu ul li {
+    color: gold;
+
+}
+#points { color: gold; font-weight: bold; }
+
+#badges span {
+  margin: 5px;
+  padding: 5px 10px;
+  background: gold;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 2px solid gold;
+}
+
+#quizArea {
+  margin-top: 10px;
+  color: white;
+}
+
+body.dark {
+  background: #111;
+  color: white;
+}
+body.dark header {
+  background: linear-gradient(45deg, #222, #444);
+}

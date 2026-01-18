@@ -1,0 +1,228 @@
+/* RESET NHẸ */
+* {
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #152015; /* xanh tối dịu */
+    color: #fff;
+}
+
+/* ===== ẢNH BÊN TRÁI ===== */
+#intro-img {
+    position: fixed;
+    top: 10vh;          /* né navbar */
+    left: 20px;
+    width: 320px;
+}
+
+#intro-img img {
+    width: 80%;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* ===== CONTENT BÊN PHẢI ===== */
+.content {
+    margin-left: 380px;   /* chừa chỗ cho ảnh */
+    padding: 100px 40px 40px;
+    max-width: 900px;
+}
+
+/* INTRO */
+#intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ===== SỬA LỖI ===== */
+#sua-loi {
+    margin-top: 40px;
+    background: #f7f7f7;
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* TEXTAREA */
+textarea {
+    width: 100%;
+    min-height: 90px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/* ===== THƯ VIỆN ĐỀ (DƯỚI SỬA LỖI) ===== */
+#thu-vien-de {
+    margin-top: 40px;
+    background: #f7f7f7;
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* THƯ VIỆN ĐỀ THI INTRO*/
+.thu-vien-de-thi-intro {
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.thu-vien-de-thi-intro p a:any-link {
+    color: #436386;
+    text-decoration: none;
+}
+
+/* KHỐI CHỨA SELECT */
+#thu-vien-de-thi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+/* SELECT */
+.chon {
+    background-color: rgb(177, 105, 105);
+    color: white;
+    width: 180px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+/* BUTTON */
+#xem-de {
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#cham-diem-giong-noi {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    color: black;
+}
+
+/* ===== NAVBAR DƯỚI ===== */
+.navbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    display: flex;
+    gap: 30px;
+    padding: 12px 30px;
+    border-radius: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    z-index: 999;
+}
+
+.navbar .item {
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.navbar .item:hover {
+    color: #007bff;
+    transform: translateY(-3px) scale(1.05);
+}
+
+.navbar .item.active {
+    color: #007bff;
+}
+
+.navbar .item.active::after {
+    width: 60%;
+}
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    #intro-img {
+        position: static;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+/*TỪ ĐIỂN*/
+#tu-dien {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    color: black;
+    opacity: 1001;
+}
+
+/*FOOTER*/
+.site-footer {
+  background: #222;
+  color: #eee;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.author-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.author-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.author-info p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #4db8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 0.8em;
+  color: #aaa;
+  margin-top: 10px;
+}

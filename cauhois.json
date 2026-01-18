@@ -1,0 +1,1768 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Toán",
+      "question": "Giá trị của 5 × (6 − 2) là:",
+      "options": { "A": "10", "B": "20", "C": "30", "D": "40" },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "subject": "Vật lí",
+      "question": "Đơn vị đo lực là:",
+      "options": { "A": "Jun", "B": "Oát", "C": "Niutơn", "D": "Ampe" },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "subject": "Hóa học",
+      "question": "Công thức hóa học của nước là:",
+      "options": { "A": "CO2", "B": "H2O", "C": "O2", "D": "H2" },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "subject": "Sinh học",
+      "question": "Đơn vị cấu tạo cơ bản của cơ thể sống là:",
+      "options": { "A": "Mô", "B": "Tế bào", "C": "Cơ quan", "D": "Hệ cơ quan" },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "subject": "Tiếng Anh",
+      "question": "Choose the correct word: She ___ to school every day.",
+      "options": { "A": "go", "B": "goes", "C": "going", "D": "gone" },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "subject": "Ngữ văn",
+      "question": "Thành phần chính của câu đơn là:",
+      "options": { "A": "Trạng ngữ", "B": "Chủ ngữ và vị ngữ", "C": "Bổ ngữ", "D": "Khởi ngữ" },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "subject": "Toán",
+      "question": "Nghiệm của phương trình x − 7 = 3 là:",
+      "options": { "A": "3", "B": "4", "C": "10", "D": "14" },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "subject": "Vật lí",
+      "question": "Vật đang đứng yên khi:",
+      "options": {
+        "A": "Vị trí không thay đổi theo thời gian",
+        "B": "Có vận tốc lớn",
+        "C": "Có lực tác dụng",
+        "D": "Có khối lượng nhỏ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "subject": "Hóa học",
+      "question": "Chất nào sau đây là bazơ?",
+      "options": { "A": "HCl", "B": "NaOH", "C": "CO2", "D": "NaCl" },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "subject": "Sinh học",
+      "question": "Quang hợp xảy ra chủ yếu ở bộ phận nào của cây?",
+      "options": { "A": "Rễ", "B": "Thân", "C": "Lá", "D": "Hoa" },
+      "answer": "C"
+    },
+
+    {
+      "id": 11,
+      "subject": "Tiếng Anh",
+      "question": "What is the plural of \"child\"?",
+      "options": { "A": "childs", "B": "childes", "C": "children", "D": "childrens" },
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "subject": "Ngữ văn",
+      "question": "Văn bản tự sự là:",
+      "options": {
+        "A": "Trình bày cảm xúc",
+        "B": "Kể lại sự việc",
+        "C": "Thuyết minh sự vật",
+        "D": "Tranh luận ý kiến"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "subject": "Toán",
+      "question": "Số đối của −15 là:",
+      "options": { "A": "15", "B": "-15", "C": "0", "D": "30" },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "subject": "Vật lí",
+      "question": "Cường độ dòng điện được ký hiệu là:",
+      "options": { "A": "U", "B": "R", "C": "I", "D": "P" },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "subject": "Hóa học",
+      "question": "Nguyên tử được cấu tạo từ:",
+      "options": {
+        "A": "Electron và neutron",
+        "B": "Proton và neutron",
+        "C": "Proton, neutron, electron",
+        "D": "Ion"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "subject": "Sinh học",
+      "question": "Cơ quan hô hấp chính của người là:",
+      "options": { "A": "Tim", "B": "Phổi", "C": "Gan", "D": "Dạ dày" },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "subject": "Tiếng Anh",
+      "question": "She is ___ than her sister.",
+      "options": { "A": "tall", "B": "taller", "C": "tallest", "D": "more tall" },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "subject": "Ngữ văn",
+      "question": "Tác giả Truyện Kiều là:",
+      "options": {
+        "A": "Nguyễn Du",
+        "B": "Nam Cao",
+        "C": "Nguyễn Trãi",
+        "D": "Tố Hữu"
+      },
+      "answer": "A"
+    },
+
+    {
+      "id": 19,
+      "subject": "Toán",
+      "question": "7² bằng:",
+      "options": { "A": "14", "B": "21", "C": "49", "D": "64" },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "subject": "Vật lí",
+      "question": "Nhiệt độ của vật tăng khi:",
+      "options": {
+        "A": "Vật tỏa nhiệt",
+        "B": "Vật thu nhiệt",
+        "C": "Vật đứng yên",
+        "D": "Không trao đổi nhiệt"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": 21,
+      "subject": "Hóa học",
+      "question": "Ký hiệu hóa học của Natri là:",
+      "options": { "A": "Na", "B": "N", "C": "Ni", "D": "Ne" },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "subject": "Sinh học",
+      "question": "Máu thuộc loại mô nào?",
+      "options": {
+        "A": "Mô biểu bì",
+        "B": "Mô liên kết",
+        "C": "Mô thần kinh",
+        "D": "Mô cơ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "subject": "Tiếng Anh",
+      "question": "He ___ TV now.",
+      "options": { "A": "watch", "B": "watches", "C": "is watching", "D": "watched" },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "subject": "Ngữ văn",
+      "question": "Biện pháp tu từ so sánh là:",
+      "options": {
+        "A": "Gọi tên sự vật",
+        "B": "So sánh sự vật này với sự vật khác",
+        "C": "Nói giảm nói tránh",
+        "D": "Liệt kê"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": 25,
+      "subject": "Toán",
+      "question": "Chu vi hình vuông cạnh 6cm là:",
+      "options": { "A": "12cm", "B": "18cm", "C": "24cm", "D": "36cm" },
+      "answer": "C"
+    },
+    {
+    "id": 26,
+    "subject": "Vật lí",
+    "question": "Đơn vị đo công cơ học là:",
+    "options": { "A": "Oát", "B": "Jun", "C": "Niutơn", "D": "Ampe" },
+    "answer": "B"
+    },
+    {
+    "id": 27,
+    "subject": "Sinh học",
+    "question": "Hệ tuần hoàn có chức năng:",
+    "options": {
+        "A": "Tiêu hóa thức ăn",
+        "B": "Vận chuyển chất trong cơ thể",
+        "C": "Trao đổi khí",
+        "D": "Bài tiết"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 28,
+    "subject": "Toán",
+    "question": "Giá trị của x trong phương trình 2x = 10 là:",
+    "options": { "A": "2", "B": "5", "C": "10", "D": "20" },
+    "answer": "B"
+    },
+    {
+    "id": 29,
+    "subject": "Hóa học",
+    "question": "Khí nào cần cho sự cháy?",
+    "options": { "A": "CO2", "B": "O2", "C": "N2", "D": "H2" },
+    "answer": "B"
+    },
+    {
+    "id": 30,
+    "subject": "Tiếng Anh",
+    "question": "They ___ football every Sunday.",
+    "options": { "A": "play", "B": "plays", "C": "played", "D": "playing" },
+    "answer": "A"
+    },
+    {
+    "id": 31,
+    "subject": "Ngữ văn",
+    "question": "Nhân vật chính trong văn bản gọi là:",
+    "options": {
+        "A": "Nhân vật phụ",
+        "B": "Nhân vật trung tâm",
+        "C": "Người kể chuyện",
+        "D": "Tác giả"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 32,
+    "subject": "Toán",
+    "question": "Số nào chia hết cho 3?",
+    "options": { "A": "14", "B": "21", "C": "25", "D": "28" },
+    "answer": "B"
+    },
+    {
+    "id": 33,
+    "subject": "Vật lí",
+    "question": "Âm to phụ thuộc vào:",
+    "options": {
+        "A": "Độ cao",
+        "B": "Tần số",
+        "C": "Biên độ dao động",
+        "D": "Vận tốc truyền"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 34,
+    "subject": "Sinh học",
+    "question": "Cơ quan tiêu hóa đầu tiên là:",
+    "options": { "A": "Ruột", "B": "Dạ dày", "C": "Miệng", "D": "Thực quản" },
+    "answer": "C"
+    },
+    {
+    "id": 35,
+    "subject": "Hóa học",
+    "question": "Dung dịch là:",
+    "options": {
+        "A": "Chất rắn",
+        "B": "Chất khí",
+        "C": "Hỗn hợp đồng nhất",
+        "D": "Hỗn hợp không đồng nhất"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 36,
+    "subject": "Tiếng Anh",
+    "question": "What ___ your name?",
+    "options": { "A": "is", "B": "are", "C": "am", "D": "be" },
+    "answer": "A"
+    },
+    {
+    "id": 37,
+    "subject": "Ngữ văn",
+    "question": "Văn bản thuyết minh dùng để:",
+    "options": {
+        "A": "Bày tỏ cảm xúc",
+        "B": "Kể chuyện",
+        "C": "Giới thiệu, giải thích",
+        "D": "Tranh luận"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 38,
+    "subject": "Toán",
+    "question": "5³ bằng:",
+    "options": { "A": "15", "B": "25", "C": "125", "D": "75" },
+    "answer": "C"
+    },
+    {
+    "id": 39,
+    "subject": "Vật lí",
+    "question": "Ánh sáng truyền trong không khí theo:",
+    "options": {
+        "A": "Đường cong",
+        "B": "Đường gấp khúc",
+        "C": "Đường thẳng",
+        "D": "Đường tròn"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 40,
+    "subject": "Sinh học",
+    "question": "Quá trình trao đổi khí ở phổi diễn ra tại:",
+    "options": { "A": "Phế quản", "B": "Phế nang", "C": "Khí quản", "D": "Mũi" },
+    "answer": "B"
+    },
+    {
+    "id": 41,
+    "subject": "Hóa học",
+    "question": "Chất nào là kim loại?",
+    "options": { "A": "S", "B": "O", "C": "Fe", "D": "Cl" },
+    "answer": "C"
+    },
+    {
+    "id": 42,
+    "subject": "Tiếng Anh",
+    "question": "I ___ a student.",
+    "options": { "A": "is", "B": "are", "C": "am", "D": "be" },
+    "answer": "C"
+    },
+    {
+    "id": 43,
+    "subject": "Ngữ văn",
+    "question": "Từ láy là:",
+    "options": {
+        "A": "Từ ghép",
+        "B": "Từ mượn",
+        "C": "Từ có âm lặp lại",
+        "D": "Từ Hán Việt"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 44,
+    "subject": "Toán",
+    "question": "Tổng các góc trong tam giác bằng:",
+    "options": { "A": "90°", "B": "180°", "C": "270°", "D": "360°" },
+    "answer": "B"
+    },
+    {
+    "id": 45,
+    "subject": "Vật lí",
+    "question": "Nhiệt kế dùng để đo:",
+    "options": { "A": "Khối lượng", "B": "Nhiệt độ", "C": "Thể tích", "D": "Áp suất" },
+    "answer": "B"
+    },
+    {
+    "id": 46,
+    "subject": "Sinh học",
+    "question": "Cơ quan bài tiết chính của người là:",
+    "options": { "A": "Gan", "B": "Phổi", "C": "Thận", "D": "Tim" },
+    "answer": "C"
+    },
+    {
+    "id": 47,
+    "subject": "Hóa học",
+    "question": "PH < 7 cho biết dung dịch:",
+    "options": { "A": "Bazơ", "B": "Trung tính", "C": "Axit", "D": "Muối" },
+    "answer": "C"
+    },
+    {
+    "id": 48,
+    "subject": "Tiếng Anh",
+    "question": "She ___ TV last night.",
+    "options": { "A": "watch", "B": "watches", "C": "watched", "D": "watching" },
+    "answer": "C"
+    },
+    {
+    "id": 49,
+    "subject": "Ngữ văn",
+    "question": "Câu kể dùng để:",
+    "options": {
+        "A": "Hỏi",
+        "B": "Ra lệnh",
+        "C": "Kể, tả, giới thiệu",
+        "D": "Cảm thán"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 50,
+    "subject": "Toán",
+    "question": "Giá trị của |−8| là:",
+    "options": { "A": "-8", "B": "0", "C": "8", "D": "16" },
+    "answer": "C"
+    },
+    {
+    "id": 51,
+    "subject": "Toán",
+    "question": "Kết quả của 12 : 3 là:",
+    "options": { "A": "2", "B": "3", "C": "4", "D": "6" },
+    "answer": "C"
+    },
+    {
+    "id": 52,
+    "subject": "Vật lí",
+    "question": "Vận tốc cho biết:",
+    "options": {
+        "A": "Quãng đường",
+        "B": "Thời gian",
+        "C": "Mức độ nhanh hay chậm của chuyển động",
+        "D": "Khối lượng"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 53,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây là hợp chất?",
+    "options": { "A": "O2", "B": "H2", "C": "H2O", "D": "N2" },
+    "answer": "C"
+    },
+    {
+    "id": 54,
+    "subject": "Sinh học",
+    "question": "Cơ thể người thuộc giới nào?",
+    "options": { "A": "Thực vật", "B": "Nấm", "C": "Động vật", "D": "Vi khuẩn" },
+    "answer": "C"
+    },
+    {
+    "id": 55,
+    "subject": "Tiếng Anh",
+    "question": "We ___ English at school.",
+    "options": { "A": "learn", "B": "learns", "C": "learning", "D": "learned" },
+    "answer": "A"
+    },
+    {
+    "id": 56,
+    "subject": "Ngữ văn",
+    "question": "Câu cảm dùng để:",
+    "options": {
+        "A": "Hỏi",
+        "B": "Ra lệnh",
+        "C": "Bộc lộ cảm xúc",
+        "D": "Kể chuyện"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 57,
+    "subject": "Toán",
+    "question": "Số nào là bội của 5?",
+    "options": { "A": "12", "B": "15", "C": "18", "D": "22" },
+    "answer": "B"
+    },
+    {
+    "id": 58,
+    "subject": "Vật lí",
+    "question": "Nguồn điện có tác dụng:",
+    "options": {
+        "A": "Tạo ra dòng điện",
+        "B": "Cản dòng điện",
+        "C": "Đo cường độ",
+        "D": "Ngắt mạch"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 59,
+    "subject": "Hóa học",
+    "question": "Nguyên tố hóa học được xác định bởi:",
+    "options": {
+        "A": "Số neutron",
+        "B": "Số proton",
+        "C": "Số electron",
+        "D": "Khối lượng"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 60,
+    "subject": "Sinh học",
+    "question": "Thực vật tạo ra chất hữu cơ nhờ:",
+    "options": {
+        "A": "Hô hấp",
+        "B": "Thoát hơi nước",
+        "C": "Quang hợp",
+        "D": "Sinh sản"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 61,
+    "subject": "Tiếng Anh",
+    "question": "This is ___ apple.",
+    "options": { "A": "a", "B": "an", "C": "the", "D": "no article" },
+    "answer": "B"
+    },
+    {
+    "id": 62,
+    "subject": "Ngữ văn",
+    "question": "Truyện ngắn thường có:",
+    "options": {
+        "A": "Nhiều tuyến nhân vật",
+        "B": "Cốt truyện đơn giản",
+        "C": "Dung lượng rất dài",
+        "D": "Không có nhân vật"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 63,
+    "subject": "Toán",
+    "question": "Tổng của 45 và 27 là:",
+    "options": { "A": "62", "B": "70", "C": "72", "D": "82" },
+    "answer": "C"
+    },
+    {
+    "id": 64,
+    "subject": "Vật lí",
+    "question": "Khi tăng hiệu điện thế thì cường độ dòng điện:",
+    "options": {
+        "A": "Giảm",
+        "B": "Không đổi",
+        "C": "Tăng",
+        "D": "Bằng 0"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 65,
+    "subject": "Hóa học",
+    "question": "Dung dịch muối ăn có chất tan là:",
+    "options": { "A": "Nước", "B": "Muối", "C": "Đường", "D": "Axit" },
+    "answer": "B"
+    },
+    {
+    "id": 66,
+    "subject": "Sinh học",
+    "question": "Tim người có mấy ngăn?",
+    "options": { "A": "2", "B": "3", "C": "4", "D": "5" },
+    "answer": "C"
+    },
+    {
+    "id": 67,
+    "subject": "Tiếng Anh",
+    "question": "She ___ not like milk.",
+    "options": { "A": "do", "B": "does", "C": "is", "D": "are" },
+    "answer": "B"
+    },
+    {
+    "id": 68,
+    "subject": "Ngữ văn",
+    "question": "Ngôi kể thứ nhất xưng là:",
+    "options": { "A": "Nó", "B": "Họ", "C": "Tôi", "D": "Anh ấy" },
+    "answer": "C"
+    },
+    {
+    "id": 69,
+    "subject": "Toán",
+    "question": "3/4 của 20 là:",
+    "options": { "A": "12", "B": "15", "C": "16", "D": "18" },
+    "answer": "B"
+    },
+    {
+    "id": 70,
+    "subject": "Vật lí",
+    "question": "Áp suất phụ thuộc vào:",
+    "options": {
+        "A": "Khối lượng",
+        "B": "Diện tích bị ép và lực ép",
+        "C": "Thể tích",
+        "D": "Nhiệt độ"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 71,
+    "subject": "Hóa học",
+    "question": "Công thức của khí cacbonic là:",
+    "options": { "A": "CO", "B": "CO2", "C": "C2O", "D": "O2" },
+    "answer": "B"
+    },
+    {
+    "id": 72,
+    "subject": "Sinh học",
+    "question": "Hệ thần kinh có chức năng:",
+    "options": {
+        "A": "Vận chuyển chất",
+        "B": "Điều khiển hoạt động cơ thể",
+        "C": "Tiêu hóa",
+        "D": "Hô hấp"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 73,
+    "subject": "Tiếng Anh",
+    "question": "My father ___ a teacher.",
+    "options": { "A": "are", "B": "am", "C": "is", "D": "be" },
+    "answer": "C"
+    },
+    {
+    "id": 74,
+    "subject": "Ngữ văn",
+    "question": "Ca dao thường phản ánh:",
+    "options": {
+        "A": "Khoa học",
+        "B": "Đời sống, tình cảm nhân dân",
+        "C": "Chiến tranh",
+        "D": "Lịch sử vua chúa"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 75,
+    "subject": "Toán",
+    "question": "Hình có 4 cạnh bằng nhau là:",
+    "options": {
+        "A": "Hình chữ nhật",
+        "B": "Hình bình hành",
+        "C": "Hình vuông",
+        "D": "Hình thang"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 76,
+    "subject": "Vật lí",
+    "question": "Dụng cụ dùng để đo hiệu điện thế là:",
+    "options": { "A": "Ampe kế", "B": "Vôn kế", "C": "Nhiệt kế", "D": "Lực kế" },
+    "answer": "B"
+    },
+    {
+    "id": 77,
+    "subject": "Toán",
+    "question": "Số nguyên nào nhỏ hơn −3?",
+    "options": { "A": "−1", "B": "0", "C": "−2", "D": "−5" },
+    "answer": "D"
+    },
+    {
+    "id": 78,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây là oxit?",
+    "options": { "A": "NaCl", "B": "H2SO4", "C": "CO2", "D": "NaOH" },
+    "answer": "C"
+    },
+    {
+    "id": 79,
+    "subject": "Sinh học",
+    "question": "Bộ phận nào điều khiển mọi hoạt động của cơ thể?",
+    "options": { "A": "Tim", "B": "Phổi", "C": "Não", "D": "Gan" },
+    "answer": "C"
+    },
+    {
+    "id": 80,
+    "subject": "Tiếng Anh",
+    "question": "There ___ many students in the class.",
+    "options": { "A": "is", "B": "are", "C": "am", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 81,
+    "subject": "Ngữ văn",
+    "question": "Văn biểu cảm dùng để:",
+    "options": {
+        "A": "Kể lại sự việc",
+        "B": "Giới thiệu sự vật",
+        "C": "Bộc lộ tình cảm, cảm xúc",
+        "D": "Tranh luận"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 82,
+    "subject": "Toán",
+    "question": "Giá trị của 4² − 3 là:",
+    "options": { "A": "13", "B": "15", "C": "16", "D": "19" },
+    "answer": "A"
+    },
+    {
+    "id": 83,
+    "subject": "Vật lí",
+    "question": "Vật chìm trong nước khi:",
+    "options": {
+        "A": "Trọng lượng nhỏ hơn lực đẩy Ác-si-mét",
+        "B": "Trọng lượng bằng lực đẩy",
+        "C": "Trọng lượng lớn hơn lực đẩy",
+        "D": "Không có lực đẩy"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 84,
+    "subject": "Hóa học",
+    "question": "Dung dịch có pH = 7 là:",
+    "options": { "A": "Axit", "B": "Bazơ", "C": "Trung tính", "D": "Muối" },
+    "answer": "C"
+    },
+    {
+    "id": 85,
+    "subject": "Sinh học",
+    "question": "Hô hấp là quá trình:",
+    "options": {
+        "A": "Lấy thức ăn",
+        "B": "Trao đổi khí O2 và CO2",
+        "C": "Vận chuyển máu",
+        "D": "Bài tiết"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 86,
+    "subject": "Tiếng Anh",
+    "question": "What time ___ you get up?",
+    "options": { "A": "do", "B": "does", "C": "did", "D": "are" },
+    "answer": "A"
+    },
+    {
+    "id": 87,
+    "subject": "Ngữ văn",
+    "question": "Nhân vật trữ tình thường xuất hiện trong:",
+    "options": {
+        "A": "Văn nghị luận",
+        "B": "Văn bản nhật dụng",
+        "C": "Thơ",
+        "D": "Văn bản hành chính"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 88,
+    "subject": "Toán",
+    "question": "Số nào là ước của 24?",
+    "options": { "A": "5", "B": "7", "C": "8", "D": "9" },
+    "answer": "C"
+    },
+    {
+    "id": 89,
+    "subject": "Vật lí",
+    "question": "Khi ma sát tăng thì chuyển động:",
+    "options": {
+        "A": "Nhanh hơn",
+        "B": "Không đổi",
+        "C": "Chậm lại",
+        "D": "Mạnh hơn"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 90,
+    "subject": "Hóa học",
+    "question": "Kim loại dẫn điện tốt nhất là:",
+    "options": { "A": "Sắt", "B": "Nhôm", "C": "Bạc", "D": "Đồng" },
+    "answer": "C"
+    },
+    {
+    "id": 91,
+    "subject": "Sinh học",
+    "question": "Tế bào thực vật khác tế bào động vật ở:",
+    "options": {
+        "A": "Nhân tế bào",
+        "B": "Màng sinh chất",
+        "C": "Thành tế bào",
+        "D": "Ti thể"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 92,
+    "subject": "Tiếng Anh",
+    "question": "She ___ her homework yesterday.",
+    "options": { "A": "do", "B": "does", "C": "did", "D": "doing" },
+    "answer": "C"
+    },
+    {
+    "id": 93,
+    "subject": "Ngữ văn",
+    "question": "Từ mượn Hán Việt có nguồn gốc từ:",
+    "options": {
+        "A": "Pháp",
+        "B": "Anh",
+        "C": "Trung Quốc",
+        "D": "Nhật Bản"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 94,
+    "subject": "Toán",
+    "question": "Chu vi hình tròn phụ thuộc vào:",
+    "options": {
+        "A": "Diện tích",
+        "B": "Bán kính",
+        "C": "Chiều cao",
+        "D": "Cạnh"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 95,
+    "subject": "Vật lí",
+    "question": "Nhiệt năng của vật phụ thuộc vào:",
+    "options": {
+        "A": "Khối lượng và nhiệt độ",
+        "B": "Thể tích",
+        "C": "Màu sắc",
+        "D": "Hình dạng"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 96,
+    "subject": "Hóa học",
+    "question": "Phản ứng hóa học là quá trình:",
+    "options": {
+        "A": "Vật lí thay đổi",
+        "B": "Chất biến đổi thành chất khác",
+        "C": "Hòa tan",
+        "D": "Nóng chảy"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 97,
+    "subject": "Sinh học",
+    "question": "Sinh sản vô tính không cần:",
+    "options": {
+        "A": "Cơ thể mẹ",
+        "B": "Tế bào sinh dưỡng",
+        "C": "Sự kết hợp giao tử",
+        "D": "Nguyên phân"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 98,
+    "subject": "Tiếng Anh",
+    "question": "How ___ apples do you want?",
+    "options": { "A": "much", "B": "many", "C": "long", "D": "old" },
+    "answer": "B"
+    },
+    {
+    "id": 99,
+    "subject": "Ngữ văn",
+    "question": "Bố cục bài văn thường gồm:",
+    "options": {
+        "A": "2 phần",
+        "B": "3 phần",
+        "C": "4 phần",
+        "D": "5 phần"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 100,
+    "subject": "Toán",
+    "question": "Giá trị của 10² là:",
+    "options": { "A": "20", "B": "50", "C": "100", "D": "1000" },
+    "answer": "C"
+    },
+    {
+    "id": 101,
+    "subject": "Toán",
+    "question": "Giá trị của 36 : 6 là:",
+    "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+    "answer": "C"
+    },
+    {
+    "id": 102,
+    "subject": "Vật lí",
+    "question": "Lực ma sát xuất hiện khi:",
+    "options": {
+        "A": "Vật đứng yên",
+        "B": "Hai bề mặt tiếp xúc và có chuyển động",
+        "C": "Vật rơi tự do",
+        "D": "Không có tiếp xúc"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 103,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây là đơn chất?",
+    "options": { "A": "NaCl", "B": "H2O", "C": "O2", "D": "CaCO3" },
+    "answer": "C"
+    },
+    {
+    "id": 104,
+    "subject": "Sinh học",
+    "question": "Cơ quan nào thuộc hệ tiêu hóa?",
+    "options": { "A": "Phổi", "B": "Tim", "C": "Dạ dày", "D": "Thận" },
+    "answer": "C"
+    },
+    {
+    "id": 105,
+    "subject": "Tiếng Anh",
+    "question": "He ___ to school by bike.",
+    "options": { "A": "go", "B": "goes", "C": "going", "D": "gone" },
+    "answer": "B"
+    },
+    {
+    "id": 106,
+    "subject": "Ngữ văn",
+    "question": "Từ đồng nghĩa là những từ:",
+    "options": {
+        "A": "Giống âm",
+        "B": "Trái nghĩa",
+        "C": "Có nghĩa giống nhau hoặc gần giống",
+        "D": "Khác hoàn toàn nghĩa"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 107,
+    "subject": "Toán",
+    "question": "Số nào lớn nhất trong các số sau?",
+    "options": { "A": "−3", "B": "0", "C": "5", "D": "2" },
+    "answer": "C"
+    },
+    {
+    "id": 108,
+    "subject": "Vật lí",
+    "question": "Ánh sáng có thể truyền qua:",
+    "options": {
+        "A": "Tường gạch",
+        "B": "Gỗ",
+        "C": "Kính trong",
+        "D": "Kim loại"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 109,
+    "subject": "Hóa học",
+    "question": "Kim loại nào sau đây nhẹ nhất?",
+    "options": { "A": "Fe", "B": "Cu", "C": "Al", "D": "Pb" },
+    "answer": "C"
+    },
+    {
+    "id": 110,
+    "subject": "Sinh học",
+    "question": "Cây xanh thải ra khí gì khi quang hợp?",
+    "options": { "A": "CO2", "B": "O2", "C": "N2", "D": "H2" },
+    "answer": "B"
+    },
+    {
+    "id": 111,
+    "subject": "Tiếng Anh",
+    "question": "My sister ___ TV every evening.",
+    "options": { "A": "watch", "B": "watches", "C": "watched", "D": "watching" },
+    "answer": "B"
+    },
+    {
+    "id": 112,
+    "subject": "Ngữ văn",
+    "question": "Văn nghị luận dùng để:",
+    "options": {
+        "A": "Kể chuyện",
+        "B": "Bày tỏ cảm xúc",
+        "C": "Trình bày ý kiến, lập luận",
+        "D": "Miêu tả cảnh vật"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 113,
+    "subject": "Toán",
+    "question": "Tổng của các số tự nhiên từ 1 đến 5 là:",
+    "options": { "A": "10", "B": "15", "C": "20", "D": "25" },
+    "answer": "B"
+    },
+    {
+    "id": 114,
+    "subject": "Vật lí",
+    "question": "Dòng điện chạy trong mạch kín khi:",
+    "options": {
+        "A": "Có nguồn điện và mạch kín",
+        "B": "Chỉ có dây dẫn",
+        "C": "Chỉ có công tắc",
+        "D": "Không cần nguồn điện"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 115,
+    "subject": "Hóa học",
+    "question": "Dung dịch axit làm quỳ tím chuyển sang màu:",
+    "options": { "A": "Xanh", "B": "Đỏ", "C": "Vàng", "D": "Không đổi" },
+    "answer": "B"
+    },
+    {
+    "id": 116,
+    "subject": "Sinh học",
+    "question": "Cơ thể sinh vật lớn lên nhờ quá trình:",
+    "options": {
+        "A": "Nguyên phân",
+        "B": "Giảm phân",
+        "C": "Thụ tinh",
+        "D": "Thoái hóa"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 117,
+    "subject": "Tiếng Anh",
+    "question": "___ you like milk?",
+    "options": { "A": "Are", "B": "Is", "C": "Do", "D": "Does" },
+    "answer": "C"
+    },
+    {
+    "id": 118,
+    "subject": "Ngữ văn",
+    "question": "Biện pháp tu từ nhân hóa là:",
+    "options": {
+        "A": "So sánh sự vật",
+        "B": "Gọi tên sự vật",
+        "C": "Gán đặc điểm con người cho sự vật",
+        "D": "Liệt kê"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 119,
+    "subject": "Toán",
+    "question": "Số nào là số chẵn?",
+    "options": { "A": "7", "B": "9", "C": "12", "D": "15" },
+    "answer": "C"
+    },
+    {
+    "id": 120,
+    "subject": "Vật lí",
+    "question": "Nhiệt độ cao nhất trên nhiệt kế thường dùng là:",
+    "options": { "A": "0°C", "B": "37°C", "C": "100°C", "D": "200°C" },
+    "answer": "C"
+    },
+    {
+    "id": 121,
+    "subject": "Hóa học",
+    "question": "Chất nào dùng để pha loãng dung dịch?",
+    "options": { "A": "Muối", "B": "Nước", "C": "Đường", "D": "Cát" },
+    "answer": "B"
+    },
+    {
+    "id": 122,
+    "subject": "Sinh học",
+    "question": "Máu vận chuyển chủ yếu:",
+    "options": {
+        "A": "Oxi và chất dinh dưỡng",
+        "B": "Chất thải rắn",
+        "C": "Nước tiểu",
+        "D": "Enzim"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 123,
+    "subject": "Tiếng Anh",
+    "question": "What ___ your favorite subject?",
+    "options": { "A": "are", "B": "is", "C": "am", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 124,
+    "subject": "Ngữ văn",
+    "question": "Cốt truyện là:",
+    "options": {
+        "A": "Nhân vật chính",
+        "B": "Chuỗi sự việc trong tác phẩm",
+        "C": "Lời kể",
+        "D": "Bố cục"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 125,
+    "subject": "Toán",
+    "question": "Giá trị của 2³ là:",
+    "options": { "A": "4", "B": "6", "C": "8", "D": "16" },
+    "answer": "C"
+    },
+    {
+    "id": 126,
+    "subject": "Toán",
+    "question": "Số nào là ước của 24?",
+    "options": { "A": "5", "B": "6", "C": "7", "D": "10" },
+    "answer": "B"
+    },
+    {
+    "id": 127,
+    "subject": "Vật lí",
+    "question": "Đơn vị đo cường độ dòng điện là:",
+    "options": { "A": "Vôn", "B": "Ampe", "C": "Ôm", "D": "Oát" },
+    "answer": "B"
+    },
+    {
+    "id": 128,
+    "subject": "Hóa học",
+    "question": "Công thức hóa học của nước là:",
+    "options": { "A": "H2", "B": "O2", "C": "H2O", "D": "HO" },
+    "answer": "C"
+    },
+    {
+    "id": 129,
+    "subject": "Sinh học",
+    "question": "Bộ phận nào điều khiển mọi hoạt động của cơ thể?",
+    "options": { "A": "Tim", "B": "Não", "C": "Phổi", "D": "Gan" },
+    "answer": "B"
+    },
+    {
+    "id": 130,
+    "subject": "Tiếng Anh",
+    "question": "She ___ a student.",
+    "options": { "A": "am", "B": "is", "C": "are", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 131,
+    "subject": "Ngữ văn",
+    "question": "Từ trái nghĩa với 'chăm chỉ' là:",
+    "options": { "A": "Siêng năng", "B": "Cần cù", "C": "Lười biếng", "D": "Chịu khó" },
+    "answer": "C"
+    },
+    {
+    "id": 132,
+    "subject": "Toán",
+    "question": "Chu vi hình vuông cạnh 5cm là:",
+    "options": { "A": "10cm", "B": "15cm", "C": "20cm", "D": "25cm" },
+    "answer": "C"
+    },
+    {
+    "id": 133,
+    "subject": "Vật lí",
+    "question": "Vật chìm trong nước khi:",
+    "options": {
+        "A": "Nhẹ hơn nước",
+        "B": "Có khối lượng riêng lớn hơn nước",
+        "C": "Có hình tròn",
+        "D": "Có thể tích lớn"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 134,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây là kim loại?",
+    "options": { "A": "Oxi", "B": "Lưu huỳnh", "C": "Sắt", "D": "Cacbon" },
+    "answer": "C"
+    },
+    {
+    "id": 135,
+    "subject": "Sinh học",
+    "question": "Đơn vị cấu tạo cơ bản của cơ thể sống là:",
+    "options": { "A": "Mô", "B": "Cơ quan", "C": "Tế bào", "D": "Hệ cơ quan" },
+    "answer": "C"
+    },
+    {
+    "id": 136,
+    "subject": "Tiếng Anh",
+    "question": "I ___ soccer after school.",
+    "options": { "A": "play", "B": "plays", "C": "playing", "D": "played" },
+    "answer": "A"
+    },
+    {
+    "id": 137,
+    "subject": "Ngữ văn",
+    "question": "Miêu tả là phương thức dùng để:",
+    "options": {
+        "A": "Kể sự việc",
+        "B": "Trình bày ý kiến",
+        "C": "Tái hiện đặc điểm sự vật",
+        "D": "Giải thích khái niệm"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 138,
+    "subject": "Toán",
+    "question": "Giá trị của 15 − 7 là:",
+    "options": { "A": "6", "B": "7", "C": "8", "D": "9" },
+    "answer": "C"
+    },
+    {
+    "id": 139,
+    "subject": "Vật lí",
+    "question": "Âm phát ra càng to khi:",
+    "options": {
+        "A": "Nguồn âm dao động càng mạnh",
+        "B": "Nguồn âm đứng yên",
+        "C": "Khoảng cách xa",
+        "D": "Nhiệt độ thấp"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 140,
+    "subject": "Hóa học",
+    "question": "Không khí là hỗn hợp của:",
+    "options": {
+        "A": "Một chất",
+        "B": "Hai chất",
+        "C": "Nhiều chất khí",
+        "D": "Chỉ có oxi"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 141,
+    "subject": "Sinh học",
+    "question": "Thực vật tự tạo chất dinh dưỡng nhờ:",
+    "options": {
+        "A": "Hô hấp",
+        "B": "Quang hợp",
+        "C": "Thoát hơi nước",
+        "D": "Hút khoáng"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 142,
+    "subject": "Tiếng Anh",
+    "question": "They ___ in Hanoi.",
+    "options": { "A": "live", "B": "lives", "C": "living", "D": "lived" },
+    "answer": "A"
+    },
+    {
+    "id": 143,
+    "subject": "Ngữ văn",
+    "question": "Nhân vật là:",
+    "options": {
+        "A": "Cảnh vật",
+        "B": "Người hoặc vật trong tác phẩm",
+        "C": "Lời văn",
+        "D": "Bố cục"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 144,
+    "subject": "Toán",
+    "question": "Số 0 là:",
+    "options": {
+        "A": "Số âm",
+        "B": "Số dương",
+        "C": "Không âm không dương",
+        "D": "Số lẻ"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 145,
+    "subject": "Vật lí",
+    "question": "Vận tốc cho biết:",
+    "options": {
+        "A": "Quãng đường",
+        "B": "Thời gian",
+        "C": "Mức độ nhanh hay chậm của chuyển động",
+        "D": "Khối lượng"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 146,
+    "subject": "Hóa học",
+    "question": "Dung dịch là hỗn hợp:",
+    "options": {
+        "A": "Không đồng nhất",
+        "B": "Đồng nhất",
+        "C": "Rắn",
+        "D": "Khí"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 147,
+    "subject": "Sinh học",
+    "question": "Hệ hô hấp có chức năng:",
+    "options": {
+        "A": "Tiêu hóa thức ăn",
+        "B": "Trao đổi khí",
+        "C": "Vận chuyển máu",
+        "D": "Bài tiết"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 148,
+    "subject": "Tiếng Anh",
+    "question": "We ___ English now.",
+    "options": { "A": "learn", "B": "learning", "C": "are learning", "D": "learned" },
+    "answer": "C"
+    },
+    {
+    "id": 149,
+    "subject": "Ngữ văn",
+    "question": "Kể chuyện là phương thức:",
+    "options": {
+        "A": "Trình bày ý kiến",
+        "B": "Giới thiệu sự vật",
+        "C": "Thuật lại sự việc",
+        "D": "Miêu tả cảm xúc"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 150,
+    "subject": "Toán",
+    "question": "Số nào sau đây là bội của 5?",
+    "options": { "A": "12", "B": "15", "C": "18", "D": "22" },
+    "answer": "B"
+    },
+    {
+    "id": 151,
+    "subject": "Toán",
+    "question": "Kết quả của 7 × 8 là:",
+    "options": { "A": "54", "B": "56", "C": "58", "D": "64" },
+    "answer": "B"
+    },
+    {
+    "id": 152,
+    "subject": "Vật lí",
+    "question": "Dụng cụ dùng để đo nhiệt độ là:",
+    "options": { "A": "Cân", "B": "Đồng hồ", "C": "Nhiệt kế", "D": "Thước" },
+    "answer": "C"
+    },
+    {
+    "id": 153,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây tan tốt trong nước?",
+    "options": { "A": "Cát", "B": "Dầu ăn", "C": "Muối ăn", "D": "Bột gạo" },
+    "answer": "C"
+    },
+    {
+    "id": 154,
+    "subject": "Sinh học",
+    "question": "Hệ tuần hoàn gồm tim và:",
+    "options": { "A": "Phổi", "B": "Dạ dày", "C": "Mạch máu", "D": "Thận" },
+    "answer": "C"
+    },
+    {
+    "id": 155,
+    "subject": "Tiếng Anh",
+    "question": "There ___ a book on the table.",
+    "options": { "A": "are", "B": "is", "C": "be", "D": "were" },
+    "answer": "B"
+    },
+    {
+    "id": 156,
+    "subject": "Ngữ văn",
+    "question": "Tác giả là người:",
+    "options": {
+        "A": "Đọc tác phẩm",
+        "B": "Phân tích tác phẩm",
+        "C": "Sáng tác tác phẩm",
+        "D": "Minh họa tác phẩm"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 157,
+    "subject": "Toán",
+    "question": "Số nào là số lẻ?",
+    "options": { "A": "10", "B": "14", "C": "18", "D": "21" },
+    "answer": "D"
+    },
+    {
+    "id": 158,
+    "subject": "Vật lí",
+    "question": "Khi đèn sáng chứng tỏ:",
+    "options": {
+        "A": "Mạch hở",
+        "B": "Không có dòng điện",
+        "C": "Mạch kín",
+        "D": "Pin hỏng"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 159,
+    "subject": "Hóa học",
+    "question": "Chất khí duy trì sự cháy là:",
+    "options": { "A": "Nitơ", "B": "Hidro", "C": "Oxi", "D": "Cacbonic" },
+    "answer": "C"
+    },
+    {
+    "id": 160,
+    "subject": "Sinh học",
+    "question": "Cơ quan nào giúp lọc máu?",
+    "options": { "A": "Tim", "B": "Phổi", "C": "Thận", "D": "Gan" },
+    "answer": "C"
+    },
+    {
+    "id": 161,
+    "subject": "Tiếng Anh",
+    "question": "She ___ English very well.",
+    "options": { "A": "speak", "B": "speaks", "C": "speaking", "D": "spoken" },
+    "answer": "B"
+    },
+    {
+    "id": 162,
+    "subject": "Ngữ văn",
+    "question": "Bố cục văn bản thường gồm:",
+    "options": {
+        "A": "2 phần",
+        "B": "3 phần",
+        "C": "4 phần",
+        "D": "5 phần"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 163,
+    "subject": "Toán",
+    "question": "Giá trị của 100 : 4 là:",
+    "options": { "A": "20", "B": "25", "C": "30", "D": "40" },
+    "answer": "B"
+    },
+    {
+    "id": 164,
+    "subject": "Vật lí",
+    "question": "Ánh sáng truyền theo đường:",
+    "options": {
+        "A": "Cong",
+        "B": "Zíc zắc",
+        "C": "Thẳng",
+        "D": "Tròn"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 165,
+    "subject": "Hóa học",
+    "question": "Vôi sống có công thức hóa học là:",
+    "options": { "A": "CaO", "B": "CaCO3", "C": "Ca(OH)2", "D": "NaOH" },
+    "answer": "A"
+    },
+    {
+    "id": 166,
+    "subject": "Sinh học",
+    "question": "Thực vật hô hấp suốt:",
+    "options": {
+        "A": "Ban ngày",
+        "B": "Ban đêm",
+        "C": "Cả ngày lẫn đêm",
+        "D": "Chỉ khi có ánh sáng"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 167,
+    "subject": "Tiếng Anh",
+    "question": "My parents ___ at home now.",
+    "options": { "A": "is", "B": "are", "C": "was", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 168,
+    "subject": "Ngữ văn",
+    "question": "Văn bản thuyết minh dùng để:",
+    "options": {
+        "A": "Kể chuyện",
+        "B": "Biểu cảm",
+        "C": "Giới thiệu, giải thích",
+        "D": "Tranh luận"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 169,
+    "subject": "Toán",
+    "question": "Số nhỏ nhất trong các số sau là:",
+    "options": { "A": "3", "B": "0", "C": "-2", "D": "1" },
+    "answer": "C"
+    },
+    {
+    "id": 170,
+    "subject": "Vật lí",
+    "question": "Nhiệt năng của vật phụ thuộc vào:",
+    "options": {
+        "A": "Màu sắc",
+        "B": "Khối lượng và nhiệt độ",
+        "C": "Hình dạng",
+        "D": "Vị trí"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 171,
+    "subject": "Hóa học",
+    "question": "Chất nào là axit?",
+    "options": { "A": "NaOH", "B": "HCl", "C": "CaO", "D": "NaCl" },
+    "answer": "B"
+    },
+    {
+    "id": 172,
+    "subject": "Sinh học",
+    "question": "Động vật ăn thịt là động vật:",
+    "options": {
+        "A": "Ăn thực vật",
+        "B": "Ăn cả thực vật và động vật",
+        "C": "Chỉ ăn động vật",
+        "D": "Không ăn gì"
+    },
+    "answer": "C"
+    },
+    {
+    "id": 173,
+    "subject": "Tiếng Anh",
+    "question": "How ___ you?",
+    "options": { "A": "is", "B": "are", "C": "am", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 174,
+    "subject": "Ngữ văn",
+    "question": "Chủ đề là:",
+    "options": {
+        "A": "Nhân vật chính",
+        "B": "Nội dung chính của văn bản",
+        "C": "Cốt truyện",
+        "D": "Bố cục"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 175,
+    "subject": "Toán",
+    "question": "Giá trị của 9² là:",
+    "options": { "A": "18", "B": "81", "C": "72", "D": "90" },
+    "answer": "B"
+    },
+    {
+    "id": 176,
+    "subject": "Toán",
+    "question": "Giá trị của 48 : 8 là:",
+    "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+    "answer": "B"
+    },
+    {
+    "id": 177,
+    "subject": "Vật lí",
+    "question": "Đơn vị đo khối lượng là:",
+    "options": { "A": "Mét", "B": "Giây", "C": "Kilôgam", "D": "Lít" },
+    "answer": "C"
+    },
+    {
+    "id": 178,
+    "subject": "Hóa học",
+    "question": "Chất nào sau đây không tan trong nước?",
+    "options": { "A": "Muối", "B": "Đường", "C": "Cát", "D": "Rượu" },
+    "answer": "C"
+    },
+    {
+    "id": 179,
+    "subject": "Sinh học",
+    "question": "Cơ quan trao đổi khí của người là:",
+    "options": { "A": "Tim", "B": "Gan", "C": "Phổi", "D": "Thận" },
+    "answer": "C"
+    },
+    {
+    "id": 180,
+    "subject": "Tiếng Anh",
+    "question": "He ___ playing football now.",
+    "options": { "A": "is", "B": "are", "C": "was", "D": "be" },
+    "answer": "A"
+    },
+    {
+    "id": 181,
+    "subject": "Ngữ văn",
+    "question": "Biện pháp tu từ so sánh là:",
+    "options": {
+        "A": "Gọi tên sự vật",
+        "B": "So sánh sự vật này với sự vật khác",
+        "C": "Lặp lại từ",
+        "D": "Liệt kê"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 182,
+    "subject": "Toán",
+    "question": "Số nào sau đây chia hết cho 3?",
+    "options": { "A": "10", "B": "14", "C": "18", "D": "20" },
+    "answer": "C"
+    },
+    {
+    "id": 183,
+    "subject": "Vật lí",
+    "question": "Nguồn điện có tác dụng:",
+    "options": {
+        "A": "Tạo ra dòng điện",
+        "B": "Cản dòng điện",
+        "C": "Đo dòng điện",
+        "D": "Ngắt mạch"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 184,
+    "subject": "Hóa học",
+    "question": "Công thức hóa học của khí oxi là:",
+    "options": { "A": "O", "B": "O2", "C": "O3", "D": "CO2" },
+    "answer": "B"
+    },
+    {
+    "id": 185,
+    "subject": "Sinh học",
+    "question": "Nhóm máu phổ biến nhất ở người là:",
+    "options": { "A": "A", "B": "B", "C": "AB", "D": "O" },
+    "answer": "D"
+    },
+    {
+    "id": 186,
+    "subject": "Tiếng Anh",
+    "question": "This is ___ apple.",
+    "options": { "A": "a", "B": "an", "C": "the", "D": "no article" },
+    "answer": "B"
+    },
+    {
+    "id": 187,
+    "subject": "Ngữ văn",
+    "question": "Ngôi kể thứ nhất thường xưng là:",
+    "options": { "A": "Nó", "B": "Họ", "C": "Tôi", "D": "Anh ấy" },
+    "answer": "C"
+    },
+    {
+    "id": 188,
+    "subject": "Toán",
+    "question": "Chu vi hình chữ nhật có chiều dài 6cm, rộng 4cm là:",
+    "options": { "A": "10cm", "B": "20cm", "C": "24cm", "D": "40cm" },
+    "answer": "B"
+    },
+    {
+    "id": 189,
+    "subject": "Vật lí",
+    "question": "Vật dẫn điện tốt là:",
+    "options": { "A": "Gỗ", "B": "Nhựa", "C": "Cao su", "D": "Đồng" },
+    "answer": "D"
+    },
+    {
+    "id": 190,
+    "subject": "Hóa học",
+    "question": "Dung dịch bazơ làm quỳ tím chuyển sang màu:",
+    "options": { "A": "Đỏ", "B": "Xanh", "C": "Vàng", "D": "Không đổi" },
+    "answer": "B"
+    },
+    {
+    "id": 191,
+    "subject": "Sinh học",
+    "question": "Hệ thần kinh có chức năng:",
+    "options": {
+        "A": "Tiêu hóa",
+        "B": "Điều khiển và điều hòa",
+        "C": "Trao đổi khí",
+        "D": "Bài tiết"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 192,
+    "subject": "Tiếng Anh",
+    "question": "What time ___ it?",
+    "options": { "A": "are", "B": "is", "C": "am", "D": "be" },
+    "answer": "B"
+    },
+    {
+    "id": 193,
+    "subject": "Ngữ văn",
+    "question": "Từ láy là từ:",
+    "options": {
+        "A": "Có một tiếng",
+        "B": "Có hai tiếng giống nhau về âm",
+        "C": "Có nghĩa trái ngược",
+        "D": "Có nguồn gốc Hán Việt"
+    },
+    "answer": "B"
+    },
+    {
+    "id": 194,
+    "subject": "Toán",
+    "question": "Số 1/2 bằng:",
+    "options": { "A": "0,2", "B": "0,25", "C": "0,5", "D": "2" },
+    "answer": "C"
+    },
+    {
+    "id": 195,
+    "subject": "Vật lí",
+    "question": "Âm không truyền được trong:",
+    "options": { "A": "Không khí", "B": "Nước", "C": "Chân không", "D": "Kim loại" },
+    "answer": "C"
+    },
+    {
+    "id": 196,
+    "subject": "Hóa học",
+    "question": "Chất nào là hợp chất?",
+    "options": { "A": "Fe", "B": "O2", "C": "H2O", "D": "Cu" },
+    "answer": "C"
+    },
+    {
+    "id": 197,
+    "subject": "Sinh học",
+    "question": "Quá trình tiêu hóa bắt đầu ở:",
+    "options": { "A": "Dạ dày", "B": "Ruột non", "C": "Miệng", "D": "Ruột già" },
+    "answer": "C"
+    },
+    {
+    "id": 198,
+    "subject": "Tiếng Anh",
+    "question": "She ___ to music every night.",
+    "options": { "A": "listen", "B": "listens", "C": "listening", "D": "listened" },
+    "answer": "B"
+    },
+    {
+    "id": 199,
+    "subject": "Ngữ văn",
+    "question": "Nội dung chính của văn bản được gọi là:",
+    "options": {
+        "A": "Chủ đề",
+        "B": "Nhân vật",
+        "C": "Cốt truyện",
+        "D": "Bố cục"
+    },
+    "answer": "A"
+    },
+    {
+    "id": 200,
+    "subject": "Toán",
+    "question": "Số nào là số nguyên âm?",
+    "options": { "A": "3", "B": "0", "C": "-5", "D": "7" },
+    "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toán Học - Công Cụ Học Tập</title>
+  <link rel="stylesheet" href="../css/styles_toan.css"> <!-- Giữ link CSS gốc nếu cần -->
+  <script src="../js/toan.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div id="navbar">
+        <div class="nav-item">
+          <a href="#giaiphuongtrinh"><button>➗</button></a>
+          <span class="label">Giải PT</span>
+        </div>
+        <div class="nav-item">
+          <a href="#may-tinh-feature"><button>🧮</button></a>
+          <span class="label">Máy tính</span>
+        </div>
+        <div class="nav-item">
+          <a href="#li-thuyet-chung-feature"><button>📘</button></a>
+          <span class="label">Lý thuyết</span>
+        </div>
+        <div class="nav-item">
+          <a href="#toan-nang-cao-feature"><button>📚</button></a>
+          <span class="label">Nâng cao</span>
+        </div>
+      </div>
+      <form id="timkiem">
+        <div class="searchbox">
+          <label for="search">Tìm kiếm:</label>
+          <input id="search" placeholder="Nhập từ khóa..." name="feature">
+        </div>
+        <div class="buttonsubmit">
+          <button type="submit">Gửi</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section id="giaiphuongtrinh">
+      <h1>Giải Phương Trình</h1>
+      <h2>Chọn Loại Phương Trình</h2>
+      <nav>
+        <a href="#ptbn_place"><button class="btn">Phương Trình Bậc Nhất</button></a>
+        <a href="#ptbh_place"><button class="btn">Phương Trình Bậc Hai</button></a>
+        <a href="#bptbn_place"><button class="btn">Bất Phương Trình Bậc Nhất</button></a>
+        <a href="#bptbh_place"><button class="btn">Bất Phương Trình Bậc Hai</button></a>
+      </nav>
+
+      <div id="ptbn_place" class="equation-section">
+        <h3>Phương Trình Bậc Nhất: ax + b = c</h3>
+        <form id="ptbninput">
+          <label for="a1">a:</label>
+          <input type="number" id="a1" name="a1" required>
+          <label for="b1">b:</label>
+          <input type="number" id="b1" name="b1" required>
+          <label for="c1">c:</label>
+          <input type="number" id="c1" name="c1" required>
+          <button type="submit">Giải</button>
+          <button type="reset">Reset</button>
+        </form>
+        <p>Nghiệm: <span id="result_ptbn"></span></p>
+        <button onclick="convertToFraction('result_ptbn')">Chuyển Phân Số</button>
+      </div>
+
+      <div id="ptbh_place" class="equation-section">
+        <h3>Phương Trình Bậc Hai: ax² + bx + c = d</h3>
+        <form id="ptbhinput">
+          <label for="a2">a:</label>
+          <input type="number" id="a2" name="a2" required>
+          <label for="b2">b:</label>
+          <input type="number" id="b2" name="b2" required>
+          <label for="c2">c:</label>
+          <input type="number" id="c2" name="c2" required>
+          <label for="d2">d:</label>
+          <input type="number" id="d2" name="d2" required>
+          <button type="submit">Giải</button>
+          <button type="reset">Reset</button>
+        </form>
+        <p>Nghiệm: <span id="result_ptbh"></span></p>
+        <button onclick="convertToFraction('result_ptbh')">Chuyển Phân Số</button>
+      </div>
+
+      <div id="bptbn_place" class="equation-section">
+        <h3>Bất Phương Trình Bậc Nhất: ax + b = c</h3>
+        <form id="bptbninput">
+          <label for="a_bpt">a:</label>
+          <input type="number" id="a_bpt" required>
+          <label for="b_bpt">b:</label>
+          <input type="number" id="b_bpt" required>
+          <label for="c_bpt">c:</label>
+          <input type="number" id="c_bpt" required>
+          <label for="op">Dấu:</label>
+          <select id="op">
+            <option value="<"><</option>
+            <option value="<=">≤</option>
+            <option value=">">></option>
+            <option value=">=">≥</option>
+          </select>
+          <button type="submit">Giải</button>
+          <button type="reset">Reset</button>
+        </form>
+        <p>Kết quả: <span id="result_bptbn"></span></p>
+        <button onclick="convertToFraction('result_bptbn')">Chuyển Phân Số</button>
+      </div>
+
+      <div id="bptbh_place" class="equation-section">
+        <h3>Bất Phương Trình Bậc Hai: ax² + bx + c = d</h3>
+        <form id="bptbhinput">
+          <label for="a_bpt2">a:</label>
+          <input type="number" id="a_bpt2" required>
+          <label for="b_bpt2">b:</label>
+          <input type="number" id="b_bpt2" required>
+          <label for="c_bpt2">c:</label>
+          <input type="number" id="c_bpt2" required>
+          <label for="d_bpt2">d:</label>
+          <input type="number" id="d_bpt2" required>
+          <label for="op2">Dấu:</label>
+          <select id="op2">
+            <option value="<"><</option>
+            <option value="<=">≤</option>
+            <option value=">">></option>
+            <option value=">=">≥</option>
+          </select>
+          <button type="submit">Giải</button>
+          <button type="reset">Reset</button>
+        </form>
+        <p>Kết quả: <span id="result_bptbh"></span></p>
+        <button onclick="convertToFraction('result_bptbh')">Chuyển Phân Số</button>
+      </div>
+    </section>
+
+    <section id="may-tinh-feature">
+      <h1>Máy Tính</h1>
+      <input type="text" id="maytinhdisplay" readonly>
+      <div class="nutmaytinh">
+        <button>Del</button>
+        <button id="cursor-left">←</button>
+        <button id="cursor-right">→</button>
+        <button>x^□</button>
+        <button>a/b</button>
+        <button>Clear</button>
+        <button>:</button>
+        <button>√</button>
+        <button>(</button>
+        <button>)</button>
+        <button>*</button>
+        <button>9</button>
+        <button>8</button>
+        <button>7</button>
+        <button>-</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+        <button>3</button>
+        <button>2</button>
+        <button>1</button>
+        <button>=</button>
+      </div>
+    </section>
+
+    <section id="li-thuyet-chung-feature">
+      <h1>Lý Thuyết Chung</h1>
+      <h2>Mục Lục</h2>
+      <div id="ltc">
+        <iframe src="https://drive.google.com/file/d/1D_fR4TkWzAaigT3qw5yphoMZVz-nLcNH/preview" allow="autoplay"></iframe>
+        <img src="../asset/image/muclucphan3toan.png" alt="Mục lục phần 3 toán">
+      </div>
+    </section>
+
+    <section id="toan-nang-cao-feature">
+      <h1>Toán Nâng Cao</h1>
+      <iframe src="https://drive.google.com/file/d/1OocJDuKyZnUKi4TM-LePW60UNtWsIN0l/preview" allow="autoplay"></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="author-info">
+        <img src="../asset/image/ảnh tác giả.jpg" alt="Tác giả Lê Trọng Minh Tú" class="author-avatar">
+        <div>
+          <h3>Lê Trọng Minh Tú</h3>
+          <p>Học sinh yêu thích Toán và Tin học. Xây dựng website học tập cấp 2.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=letrongminhtu@gmail.com" target="_blank">📧 Email</a>
+        <a href="https://github.com/LeTrongMinhTu" target="_blank">💻 GitHub</a>
+        <a href="https://www.facebook.com/minhtu.letrong.9?locale=vi_VN" target="_blank">🌐 Facebook</a>
+      </div>
+      <p class="copyright">© 2025 Minh Tú. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -114,10 +114,10 @@
             </audio>
         </section>
 
-        <section id="feedback">
+        <section id="feedbackForm">
             <h1 style="color: white;">✉️ Gửi Feedback</h1>
-            <textarea id="feedback" rows="4" cols="50" placeholder="Nhập góp ý của bạn..."></textarea><br>
-            <button onclick="saveFeedback()">Gửi</button>
+            <textarea id="feedbackInput" rows="4" cols="50" placeholder="Nhập góp ý của bạn..."></textarea><br>
+            <button type = "button" onclick="sendFeedback()">Gửi</button>
             <p id="feedbackStatus"></p>
         </section>
 
@@ -126,5 +126,6 @@
             <p>"Học tập hôm nay – Tương lai ngày mai"</p>
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </body>
 </html>

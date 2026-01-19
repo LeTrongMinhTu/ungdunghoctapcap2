@@ -148,6 +148,10 @@ textarea {
   font-family: inherit;
 }
 
+textarea:focus::placeholder{
+    opacity: 0;
+}
+
 /* ===== FOOTER ===== */
 footer {
   text-align: center;

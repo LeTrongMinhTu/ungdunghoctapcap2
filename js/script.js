@@ -252,17 +252,31 @@ function toggleMusic() {
 }
 
 // ================== Feedback ==================
-function saveFeedback() {
-  let fb = document.getElementById("feedback").value;
-  if (fb.trim() === "") {
-    document.getElementById("feedbackStatus").innerText = "❌ Vui lòng nhập góp ý!";
-    return;
+emailjs.init("Y3_dDFsNkgVihFEED");
+function sendFeedback() {
+  const text = document.getElementById("feedbackInput").value;
+  const status = document.getElementById("feedbackStatus");
+
+  if (!text.trim()) {
+      status.innerText = "❌ Vui lòng nhập feedback";
+      return;
   }
-  let list = JSON.parse(localStorage.getItem("feedbacks")) || [];
-  list.push(fb);
-  localStorage.setItem("feedbacks", JSON.stringify(list));
-  document.getElementById("feedback").value = "";
-  document.getElementById("feedbackStatus").innerText = "✅ Đã lưu góp ý!";
+
+  emailjs.send(
+      "service_v5i4yfi",
+      "template_zc7lpu5",
+      {
+      message: text,
+      page: window.location.href,
+      time: new Date().toLocaleString()
+      }
+  ).then(() => {
+      status.innerText = "✅ Đã gửi feedback thành công!";
+      document.getElementById("feedbackInput").value = "";
+  }).catch(err => {
+      status.innerText = "❌ Gửi thất bại!";
+      console.error(err);
+  });
 }
 
 // ================== Init ==================

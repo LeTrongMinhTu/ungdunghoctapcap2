@@ -179,10 +179,10 @@ footer {
     background: transparent;
     color: #90caf9;
     border-radius: 999px;
-    }
+  }
 
-    .navbar button:hover {
+  .navbar button:hover {
     background: rgba(144, 202, 249, 0.15);
-    }
+  }
 }
 
